@@ -2,23 +2,34 @@
 <html>
     <head>
         <title>
-            Images Search
+            Elgoog Images
         </title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
         <link rel='stylesheet' href="style.css">
         <meta charset="utf-8">
+       
     </head>
     <body>
         <nav>
-            <div>
-                <h1 class='josefin'><span class="logo-size" style="color: #ea4335">E</span><span style="color: #34A853">l</span><span style="color: #4285f4">g</span><span style="color: #fbbc05">o</span><span style="color: #ea4335">o</span><span style="color: #4285f4">g</span></h1>
+            <div class='small-header-part-left'>
+                <div class='josefin logo-margin'><span style="color: #ea4335; font-size: 24px;">E</span><span style="color: #34A853; font-size: 24px;" >l</span><span style="color: #4285f4; font-size: 24px;">g</span><span style="color: #fbbc05; font-size: 24px;">o</span><span style="color: #ea4335; font-size: 24px;">o</span><span style="color: #4285f4; font-size: 24px;">g</span></div>
             </div>
-            <div>
-                <input>
-                <button>
-                    Search
-                </button>
+            <div id="input-container">
+                <form>
+                    <input>
+                    <button type="submit">
+                        <span class="material-icons icon-size" >
+                            search
+                        </span>
+                    </button>
+                </form>
             </div>
+            <div class='small-header-part-right'></div>
         </nav>
+        <div id='behind-header'>
+
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
