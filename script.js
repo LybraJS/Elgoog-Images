@@ -9,7 +9,7 @@ function displayData(arr) {
     for (let i=0; i < arr.length; i++) {
         let image = `
         <div id='image-container'>
-            <img src='${arr[i].webformatURL}'>
+            <img src='${arr[i].webformatURL}' onclick="myFunction(event)">
             <div id='user-container'>
                <span id='user-span'>User:</span><a href='${arr[i].pageURL}'>${arr[i].user}</a>
             </div>
@@ -47,7 +47,7 @@ search.addEventListener("keydown", function(event) {
 function searchImages() {
     getData(search.value)
 }
+
 function myFunction(event) { 
     event.target.parentNode.remove();
-    console.log(event.target.tagName)
   }
