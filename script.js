@@ -47,7 +47,7 @@ search.addEventListener("keydown", function(event) {
 function searchImages() {
     getData(search.value)
 }
-
-document.querySelector('img').addEventListener("click", function (e) {
-	if (e.target.src) e.target.remove();
-});
+function myFunction(event) { 
+    event.target.parentNode.remove();
+    console.log(event.target.tagName)
+  }
