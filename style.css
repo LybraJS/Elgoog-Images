@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
+}
+
+a {
+  color: black;
 }
 
 body {
@@ -12,7 +17,6 @@ body {
 #behind-header {
   width: 100%;
   height: 8vh;
-  background-color: green;
 }
 
 button {
@@ -39,6 +43,7 @@ form {
 
 img {
   height: 256px;
+  max-width: 95vw;
   margin: 12px;
 }
 
@@ -119,4 +124,17 @@ nav {
 
 .small-header-part-right {
   width: 20%;
+}
+
+#user-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Roboto", sans-serif;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
+#user-span {
+  margin-right: 0.25em;
 }
