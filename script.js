@@ -11,7 +11,7 @@ function displayData(arr) {
         <div id='image-container'>
             <img src='${arr[i].webformatURL}' onclick="myFunction(event)">
             <div id='user-container'>
-               <span id='user-span'>User:</span><a href='${arr[i].pageURL}'>${arr[i].user}</a>
+               <span id='user-span'>User:</span><a href='${arr[i].pageURL}' target='_blank'>${arr[i].user}</a>
             </div>
         </div>`;
 
