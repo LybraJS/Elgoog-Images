@@ -32,7 +32,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 32px;
+  height: 5vh;
 }
 
 form {
@@ -65,7 +65,7 @@ img {
 }
 
 input {
-  height: 32px;
+  height: 5vh;
   width: 50%;
   min-width: 64px;
   border-top-left-radius: 100px;
