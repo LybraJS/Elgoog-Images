@@ -5,7 +5,7 @@ let imageSearch = `
         <div class='josefin logo-margin'><span style="color: #ea4335; font-size: 24px;">E</span><span style="color: #34A853; font-size: 24px;" >l</span><span style="color: #4285f4; font-size: 24px;">g</span><span style="color: #fbbc05; font-size: 24px;">o</span><span style="color: #ea4335; font-size: 24px;">o</span><span style="color: #4285f4; font-size: 24px;">g</span></div>
     </div>
     <div id="input-container">
-        <input placeholder="Search for Images" id='page-input'>
+        <input placeholder="Search" id='page-input'>
         <button type="submit" onclick='pageSearchImages()' id='page-button'>
             <span class="material-icons icon-size" >
                 search

@@ -43,7 +43,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .column {
@@ -54,6 +53,15 @@ form {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.full-page-height {
+  height: 100vh;
+}
+
+h1 {
+  color: gray;
+  margin: 8px;
 }
 
 img {
@@ -99,7 +107,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 70%;
 }
 
 .josefin {
