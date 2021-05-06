@@ -10,6 +10,10 @@ a {
   color: black;
 }
 
+.big-logo-space-around {
+  margin: 32px;
+}
+
 body {
   background-color: #f2f2f2;
 }
@@ -33,6 +37,17 @@ button {
   align-items: center;
   justify-content: center;
   height: 32px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.column {
+  flex-direction: column;
 }
 
 form {

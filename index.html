@@ -11,28 +11,17 @@
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
-        <nav>
-            <div class='small-header-part-left'>
-                <div class='josefin logo-margin'><span style="color: #ea4335; font-size: 24px;">E</span><span style="color: #34A853; font-size: 24px;" >l</span><span style="color: #4285f4; font-size: 24px;">g</span><span style="color: #fbbc05; font-size: 24px;">o</span><span style="color: #ea4335; font-size: 24px;">o</span><span style="color: #4285f4; font-size: 24px;">g</span></div>
-            </div>
-            <div id="input-container">
-                
-                    <input placeholder="Search for Images">
-                    <button type="submit" onclick='searchImages()'>
-                        <span class="material-icons icon-size" >
-                            search
-                        </span>
-                    </button>
-                
-            </div>
-            <div class='small-header-part-right'></div>
-        </nav>
-        <div id='behind-header'></div>
-        <div id='images-container'>
-            <div id='image-container'>
-                <span id='user'></span>
-            </div>
+     <div class='center column josefin'>
+        <div class='big-logo-space-around'><span style="color: #ea4335; font-size: 128px;">E</span><span style="color: #34A853; font-size: 128px;" >l</span><span style="color: #4285f4; font-size: 128px;">g</span><span style="color: #fbbc05; font-size: 128px;">o</span><span style="color: #ea4335; font-size: 128px;">o</span><span style="color: #4285f4; font-size: 128px;">g</span></div>
+        <div id="input-container">
+            <input placeholder="Search for Images" id='home-input'>
+            <button type="submit" onclick='showImages()' id='home-button'>
+                <span class="material-icons icon-size" >
+                    search
+                </span>
+            </button>
         </div>
+     </div>
         <script src="script.js"></script>
     </body>
 </html>
